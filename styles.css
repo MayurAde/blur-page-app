@@ -1,0 +1,72 @@
+.container  {
+    width: 50%;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 0 auto;
+    box-shadow: 5px grey;
+}
+
+p{
+    text-align: justify;
+}
+h1{
+    text-align: center;
+}
+
+.blur{
+    filter: blur(5px);
+    z-index: 1;
+}
+button{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    color: aliceblue;
+    background-color: #4CAF50;
+    cursor: pointer;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0,0,0,0.6); */
+    z-index:-5
+   
+}
+
+form{
+    z-index: 5;
+}
+
+.auth{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    width: 50%;
+    height: 300px;
+    background-color: rgb(101, 117, 101);
+    margin: 50px auto;
+    border : 2px solid grey;
+    background: linear-gradient(to right, rgb(97, 90, 90), white);
+}
+
+.hide{
+    visibility: hidden;
+}
