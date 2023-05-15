@@ -25,7 +25,8 @@ button{
     border-radius: 5px;
     font-size: 25px;
     color: aliceblue;
-    background-color: #4CAF50;
+    /* background-color: #4CAF50; */
+    background-color: rgba(0, 0, 0, 0.233);
     cursor: pointer;
 }
 
